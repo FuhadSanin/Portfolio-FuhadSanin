@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 header {
   position: fixed;
   height: 80px;
@@ -26,6 +29,10 @@ header p {
 }
 header p span {
   color: #00abf0;
+}
+nav{
+  position: absolute;
+  right: 200px;
 }
 nav a {
   margin: 0 20px;

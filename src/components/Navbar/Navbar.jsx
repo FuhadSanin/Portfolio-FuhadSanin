@@ -23,9 +23,9 @@ export const Navbar = () => {
         Fuhad <span>Sanin.</span>
       </p>
       <nav ref={navRef}>
-        <a href="">Home</a>
-        <a href="">Portfolio</a>
-        <a href="">About</a>
+        <a href="#Banner">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
         <a href="">Contact me</a>
         <a href="">Blog</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
