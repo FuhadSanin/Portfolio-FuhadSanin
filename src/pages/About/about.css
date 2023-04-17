@@ -3,8 +3,8 @@
   height: fit-content;
   display: flex;
   font-family: "Poppins";
-  background-color: #edede9;
 }
+
 #about .col-1 {
   width: 40%;
   height: 100vh;

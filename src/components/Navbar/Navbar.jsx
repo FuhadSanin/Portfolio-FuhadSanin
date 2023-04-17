@@ -26,7 +26,7 @@ export const Navbar = () => {
         <a href="#Banner">Home</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#about">About</a>
-        <a href="">Contact me</a>
+        <a href="#Contact">Contact me</a>
         <a href="">Blog</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes className="icons times" />

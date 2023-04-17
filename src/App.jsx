@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio/Portfolio"
 import About from "./pages/About/About"
 import { useState, useEffect } from "react"
 import PropagateLoader from "react-spinners/PropagateLoader"
+import { Contact } from "./pages/Contact me/Contact"
 export const App = () => {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -26,6 +27,7 @@ export const App = () => {
           <Vanta />
           <Portfolio />
           <About />
+          <Contact />
         </div>
       )}
     </div>
