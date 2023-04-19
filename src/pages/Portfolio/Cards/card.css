@@ -81,8 +81,8 @@
 @media only screen and (max-width: 600px) {
   #card {
     width: 320px;
-    height: 650px;
-    gap: 20px;
+    height: fit-content;
+    margin-top: 50px;
   }
   #card .img {
     width: 320px;

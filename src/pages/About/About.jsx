@@ -27,7 +27,6 @@ function About() {
               me.
             </span>
           </h1>
-          <div className="underline" data-aos="fade-right"></div>
           <p data-aos="fade-right">
             here are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected

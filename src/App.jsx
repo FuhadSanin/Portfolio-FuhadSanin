@@ -7,6 +7,7 @@ import About from "./pages/About/About"
 import { useState, useEffect } from "react"
 import PropagateLoader from "react-spinners/PropagateLoader"
 import { Contact } from "./pages/Contact me/Contact"
+import { Footer } from "./pages/Footer/Footer"
 export const App = () => {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -28,6 +29,7 @@ export const App = () => {
           <Portfolio />
           <About />
           <Contact />
+          <Footer />
         </div>
       )}
     </div>
