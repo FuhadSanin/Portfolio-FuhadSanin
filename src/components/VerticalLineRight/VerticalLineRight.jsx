@@ -5,7 +5,7 @@ import { FaHackerrank, FaBlogger } from "react-icons/fa"
 export const VerticalLineRight = () => {
   return (
     <div id="lineR">
-      <div className="line-links">
+      <div className="line-links" data-aos="fade-up">
         <FiPhone className="icons" />
         <FiLinkedin className="icons" />
         <FiGithub className="icons" />

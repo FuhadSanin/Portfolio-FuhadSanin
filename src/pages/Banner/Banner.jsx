@@ -1,6 +1,7 @@
 import React from "react"
 import "./Banner.css"
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi"
+import { Typewriter } from "react-simple-typewriter"
 
 export const Banner = () => {
   return (
@@ -22,7 +23,23 @@ export const Banner = () => {
             <h5>Hi I'm</h5>
             <h1 data-aos="zoom-in-up">Fuhad Sanin</h1>
             <h3>
-              I'm a <span className="auto-type">React Developer</span>
+              I'm a{" "}
+              <span className="auto-type">
+                {" "}
+                <Typewriter
+                  words={[
+                    "React Developer",
+                    "Web Designer",
+                    "Cinematographer",
+                  ]}
+                  loop={5}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={50}
+                  deleteSpeed={50}
+                  delaySpeed={2000}
+                />
+              </span>
             </h3>
             <button className="button">Resume</button>
           </div>

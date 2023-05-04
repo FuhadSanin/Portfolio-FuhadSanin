@@ -28,7 +28,7 @@ export const Navbar = () => {
         <a href="#about">About</a>
         <a href="#Skills">Skills</a>
         <a href="#Contact">Contact me</a>
-        <a href="">Blog</a>
+        <a href="https://bytecodee.blogspot.com">Blog</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes className="icons times" />
         </button>
