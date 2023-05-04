@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 header {
@@ -31,7 +31,7 @@ header p {
 header p span {
   color: #00abf0;
 }
-nav{
+nav {
   position: absolute;
   right: 200px;
 }

@@ -40,7 +40,6 @@ const Portfolio = () => {
             io.
           </span>
         </h1>
-        <div className="underline" data-aos="fade-right"></div>
       </div>
 
       <div class="cards">

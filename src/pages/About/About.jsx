@@ -67,23 +67,6 @@ function About() {
           </div>
           {show === "skill" ? (
             <div class="tab_content active-tab" data-aos="fade-up">
-              <ul>
-                <li>
-                  <span>UI/UX</span>
-                  <br />
-                  Designing Web/App interfaces
-                </li>
-                <li>
-                  <span>Web Development</span>
-                  <br />
-                  Designing Web/App interfaces
-                </li>
-                <li>
-                  <span>App Development</span>
-                  <br />
-                  Designing Web/App interfaces
-                </li>
-              </ul>
             </div>
           ) : (
             ""

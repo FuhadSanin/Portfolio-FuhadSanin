@@ -1,6 +1,6 @@
 import React from "react"
 import "./Banner.css"
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi"
 
 export const Banner = () => {
   return (
@@ -9,13 +9,13 @@ export const Banner = () => {
         <div className="col">
           <div className="col-socialmedia" data-aos="zoom-in-right">
             <a href="https://github.com/FuhadSanin">
-              <FaGithub className="icons github" />
+              <FiGithub className="icons github" />
             </a>
             <a href="https://www.linkedin.com/in/fuhad-sanin-b469a3217">
-              <FaLinkedin className="icons linkedin" />
+              <FiLinkedin className="icons linkedin" />
             </a>
             <a href="">
-              <FaTwitter className="icons twitter" />
+              <FiTwitter className="icons twitter" />
             </a>
           </div>
           <div className="col-intro" data-aos="zoom-in-up">
