@@ -52,6 +52,9 @@ const Portfolio = () => {
             s2="React.js"
             s3="Firebase"
           />
+          <Card title="IEDC" img={card5} s1="HTML" s2="CSS" s3="Vanta.js" />
+        </div>
+        <div className="card-row">
           <Card
             title="CEC"
             img={card2}
@@ -60,10 +63,7 @@ const Portfolio = () => {
             s2="CSS"
             s3="Bootstrap"
           />
-        </div>
-        <div className="card-row">
           <Card title="Tic-Tac-Toe" img={card3} s2="Java" />
-          <Card title="IEDC" img={card5} s1="HTML" s2="CSS" s3="Vanta.js" />
         </div>
       </div>
 
