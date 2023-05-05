@@ -13,7 +13,7 @@ import card5 from "../../image/cards/iedc.png"
 import card6 from "../../image/cards/counter.png"
 import card7 from "../../image/cards/contacts.png"
 
-import { movie, cec } from "./p"
+import { movie, cec, xo, iedc } from "./p"
 
 const Portfolio = () => {
   const [state, setState] = useState(false)
@@ -52,7 +52,7 @@ const Portfolio = () => {
             s2="React.js"
             s3="Firebase"
           />
-          <Card title="IEDC" img={card5} s1="HTML" s2="CSS" s3="Vanta.js" />
+          <Card title="IEDC" img={card5} s1="React JS" s2="Tailwind" s3="Vanta.js" par={iedc}/>
         </div>
         <div className="card-row">
           <Card
@@ -63,7 +63,7 @@ const Portfolio = () => {
             s2="CSS"
             s3="Bootstrap"
           />
-          <Card title="Tic-Tac-Toe" img={card3} s2="Java" />
+          <Card title="Tic-Tac-Toe" img={card3} s2="Java" par={xo} />
         </div>
       </div>
 

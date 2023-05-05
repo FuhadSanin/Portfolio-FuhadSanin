@@ -4,6 +4,7 @@
   display: flex;
   font-family: "Poppins";
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 #about .col-1 {

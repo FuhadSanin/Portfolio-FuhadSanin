@@ -1,6 +1,6 @@
 import React from "react"
 import "./Contact.css"
-import { FaGithub, FaLinkedin, FaTwitter ,FaPhone} from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTwitter, FaPhone } from "react-icons/fa"
 
 export const Contact = () => {
   return (
@@ -20,7 +20,12 @@ export const Contact = () => {
       <div className="details">
         <div className="col-1">
           <h1>Get in touch</h1>
-          <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
+          <p>
+            Thank you for visiting my website! I would love to hear from you and
+            answer any questions you may have. Whether you're interested in may
+            services, have a project you'd like to discuss, or just want to say
+            hello, please feel free to reach out to us using the contact .{" "}
+          </p>
           <div className="social-media">
             <FaGithub className="icons" />
             <FaLinkedin className="icons" />

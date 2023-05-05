@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import "./about.css"
+import SkillsBar from "./SkillsBar"
 
 function About() {
   const [show, setShow] = useState("skill")
@@ -28,18 +29,21 @@ function About() {
             </span>
           </h1>
           <p data-aos="fade-right">
-            here are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable.
+            Hi there! My name is Fuhad Sanin and I'm a front-end web developer
+            with expertise in HTML, CSS, JavaScript, and React.js. Over the
+            years, I've built a number of websites and web applications, and I'm
+            always looking for new challenges to tackle. <br /><br/>
+            Recently, I've been expanding my skillset to include Python for data
+            science and artificial intelligence. I'm fascinated by the potential
+            of AI to transform industries and improve people's lives, and I'm
+            excited to be part of this rapidly evolving field. In my free time,
+            I enjoy tinkering with new technologies and exploring the latest
+            trends in web development and AI. <br/><br/>If you have a project or idea
+            that you'd like to collaborate on, please don't hesitate to get in
+            touch! I'm always up for a new challenge and would love to hear from
+            you.
           </p>
-          <div className="tab-title" >
+          <div className="tab-title">
             <h5
               className="tab-link active-link"
               onClick={() => handle("skill")}
@@ -67,6 +71,7 @@ function About() {
           </div>
           {show === "skill" ? (
             <div class="tab_content active-tab" data-aos="fade-up">
+              <SkillsBar />
             </div>
           ) : (
             ""
