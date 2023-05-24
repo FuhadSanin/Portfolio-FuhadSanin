@@ -1,6 +1,8 @@
-body {
-  margin: 0;
+body,
+html {
   padding: 0;
+  overflow-x: hidden;
+  margin: 0;
 }
 .App .loader {
   align-items: center;
