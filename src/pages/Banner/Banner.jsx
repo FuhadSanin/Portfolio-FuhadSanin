@@ -19,19 +19,15 @@ export const Banner = () => {
               <FiTwitter className="icons twitter" />
             </a>
           </div>
-          <div className="col-intro" data-aos="zoom-in-up">
-            <h5>Hi I'm</h5>
-            <h1 data-aos="zoom-in-up">Fuhad Sanin</h1>
-            <h3>
+          <div className="col-intro">
+            <h5 data-aos="fade-in">Hi I'm</h5>
+            <h1 data-aos="flip-up" data-aos-duration="2000">Fuhad Sanin</h1>
+            <h3 data-aos="flip-up">
               I'm a{" "}
               <span className="auto-type">
                 {" "}
                 <Typewriter
-                  words={[
-                    "React Developer",
-                    "Web Designer",
-                    "Cinematographer",
-                  ]}
+                  words={["React Developer", "Web Designer", "Cinematographer"]}
                   loop={5}
                   cursor
                   cursorStyle="|"
@@ -41,7 +37,9 @@ export const Banner = () => {
                 />
               </span>
             </h3>
-            <button className="button">Resume</button>
+            <button className="button" data-aos="flip-down">
+              Resume
+            </button>
           </div>
         </div>
       </div>

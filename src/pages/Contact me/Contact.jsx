@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaPhone } from "react-icons/fa"
 export const Contact = () => {
   return (
     <div id="Contact">
-      <h1 data-aos="fade-right">
+      <h1 data-aos="flip-up">
         Contact
         <span
           style={{

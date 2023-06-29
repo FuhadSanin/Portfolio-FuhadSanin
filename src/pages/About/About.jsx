@@ -11,12 +11,12 @@ function About() {
   return (
     <div id="about">
       <div className="col-1">
-        <div className="img" data-aos="zoom-out-up"></div>
+        <div className="img" data-aos="fade-right"></div>
         <div className="sm-img" data-aos="fade-right"></div>
       </div>
       <div className="col-2">
         <div className="col-2-data">
-          <h1 data-aos="zoom-out-up">
+          <h1 data-aos="flip-up">
             About{" "}
             <span
               style={{
@@ -28,20 +28,22 @@ function About() {
               me.
             </span>
           </h1>
-          <p data-aos="fade-right">
+          <p data-aos="fade-left">
             Hi there! My name is Fuhad Sanin and I'm a front-end web developer
             with expertise in HTML, CSS, JavaScript, and React.js. Over the
             years, I've built a number of websites and web applications, and I'm
-            always looking for new challenges to tackle. <br /><br/>
+            always looking for new challenges to tackle. <br />
+            <br />
             Recently, I've been expanding my skillset to include Python for data
             science and artificial intelligence. I'm fascinated by the potential
             of AI to transform industries and improve people's lives, and I'm
             excited to be part of this rapidly evolving field. In my free time,
             I enjoy tinkering with new technologies and exploring the latest
-            trends in web development and AI. <br/><br/>If you have a project or idea
-            that you'd like to collaborate on, please don't hesitate to get in
-            touch! I'm always up for a new challenge and would love to hear from
-            you.
+            trends in web development and AI. <br />
+            <br />
+            If you have a project or idea that you'd like to collaborate on,
+            please don't hesitate to get in touch! I'm always up for a new
+            challenge and would love to hear from you.
           </p>
           <div className="tab-title">
             <h5

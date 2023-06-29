@@ -8,7 +8,7 @@ import { MdLaptopMac } from "react-icons/md"
 export const Skills = () => {
   return (
     <div id="Skills">
-      <div class="title" data-aos="zoom-out-up" data-aos-duration="1000">
+      <div class="title" data-aos="flip-up" data-aos-duration="1000">
         <h1>
           Skill
           <span
@@ -32,7 +32,6 @@ export const Skills = () => {
         <Card img={GiBrain} title="Problem Solving" />
         <Card img={MdLaptopMac} title="UI/UX" />
       </div>
-      
     </div>
   )
 }

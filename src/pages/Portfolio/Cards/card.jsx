@@ -4,7 +4,7 @@ import { FaGithub, FaTelegram } from "react-icons/fa"
 
 const card = props => {
   return (
-    <div id="card">
+    <div id="card" data-aos="flip-up" data-aos-duration="1000">
       <div className="img">
         <img src={props.img} alt="" />
       </div>
@@ -13,7 +13,14 @@ const card = props => {
         <div className="par">
           <p>{props.par}</p>
         </div>
-        <h6 style={{ color: "white", paddingBottom: "10px", marginBottom: "0px",fontSize:"17px" }}>
+        <h6
+          style={{
+            color: "white",
+            paddingBottom: "10px",
+            marginBottom: "0px",
+            fontSize: "17px",
+          }}
+        >
           Stack
         </h6>
         <div className="btn">

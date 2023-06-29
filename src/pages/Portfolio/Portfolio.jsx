@@ -27,7 +27,7 @@ const Portfolio = () => {
   }, [])
   return (
     <div id="portfolio">
-      <div class="title" data-aos="zoom-out-up" data-aos-duration="1000">
+      <div class="title" data-aos="flip-up" data-aos-duration="2000">
         <h1>
           Portfol
           <span
@@ -43,7 +43,7 @@ const Portfolio = () => {
       </div>
 
       <div class="cards">
-        <div className="card-row" data-aos="flip-down" data-aos-duration="1000">
+        <div className="card-row">
           <Card
             title="movie"
             img={card1}
@@ -52,7 +52,14 @@ const Portfolio = () => {
             s2="React.js"
             s3="Firebase"
           />
-          <Card title="IEDC" img={card5} s1="React JS" s2="Tailwind" s3="Vanta.js" par={iedc}/>
+          <Card
+            title="IEDC"
+            img={card5}
+            s1="React JS"
+            s2="Tailwind"
+            s3="Vanta.js"
+            par={iedc}
+          />
         </div>
         <div className="card-row">
           <Card
