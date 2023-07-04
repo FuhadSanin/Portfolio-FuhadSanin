@@ -130,7 +130,12 @@
 
 @media only screen and (max-width: 1120px) {
   #Banner {
-    height: 70vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
   }
   #Banner .main-left {
     width: 100%;
@@ -157,6 +162,10 @@
     font-size: 28px;
   }
   #Banner .col-2 {
-    display: none;
+    width: 100%;
+  }
+  #Banner .col-2 .img {
+    width: 280px;
+    height: 280px;
   }
 }

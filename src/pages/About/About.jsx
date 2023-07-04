@@ -12,7 +12,6 @@ function About() {
     <div id="about">
       <div className="col-1">
         <div className="img" data-aos="fade-right"></div>
-        <div className="sm-img" data-aos="fade-right"></div>
       </div>
       <div className="col-2">
         <div className="col-2-data">

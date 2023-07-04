@@ -1,9 +1,9 @@
 .Vanta {
   width: 100%;
-  height: fit-content;
+  height: 100%;
 }
 @media only screen and (max-width: 1120px) {
   .Vanta {
-    height: 100vh;
+    height: 100%;
   }
 }
