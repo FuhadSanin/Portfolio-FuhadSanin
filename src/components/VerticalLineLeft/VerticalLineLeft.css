@@ -10,7 +10,8 @@
 
 #lineL a {
   text-decoration: none;
-  writing-mode: vertical-rl;
+  transform: rotate(180);
+  writing-mode: vertical-lr;
   color: rgba(128, 128, 128, 0.556);
   font-size: 12px;
   position: fixed;
@@ -19,6 +20,11 @@
 }
 @media only screen and (max-width: 1024px) {
   #lineL {
-    display: none;
+    top: 60px;
+    height: 34%;
+    left: 18px;
+  }
+  #lineL a {
+    left: 10px;
   }
 }

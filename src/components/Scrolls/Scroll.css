@@ -8,6 +8,7 @@
   align-items: center;
   right: 15px;
   transition-duration: 0.3s;
+  z-index: 100000;
 }
 #Scroll .icons {
   font-size: 30px;
@@ -19,3 +20,9 @@
   color: #00abf0;
 
 }
+@media only screen and (max-width: 1024px) {
+  #Scroll {
+    right: -8px;
+  }
+}
+
