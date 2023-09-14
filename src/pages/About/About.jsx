@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react"
 import "./about.css"
-import SkillsBar from "./SkillsBar"
 
 function About() {
-  const [show, setShow] = useState("skill")
+  const [show, setShow] = useState("education")
 
   const handle = e => {
     setShow(e)
@@ -72,7 +71,7 @@ function About() {
           </div>
           {show === "skill" ? (
             <div class="tab_content active-tab" data-aos="fade-up">
-              <SkillsBar />
+              hey
             </div>
           ) : (
             ""

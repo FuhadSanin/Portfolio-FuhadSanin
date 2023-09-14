@@ -15,7 +15,7 @@
   justify-content: center;
 }
 #about .col-1 .img {
-  background-image: url(../../image/about.JPEG);
+  background-image: url(../../image/about.webp);
   width: 400px;
   height: 550px;
   background-size: cover;
@@ -40,8 +40,13 @@
 }
 #about .col-2-data p {
   color: gray;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+
+  font-size: 14px;
   font-family: sans-serif;
-  font-weight: 100;
+  font-weight: 500;
 }
 #about .col-2-data {
   width: 60%;
@@ -81,12 +86,21 @@
   color: #2196f3;
   font-size: 15px;
 }
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 @media only screen and (max-width: 1100px) {
   #about {
     display: flex;
     flex-direction: column;
     height: fit-content;
     width: 100%;
+    padding-bottom: 100px;
   }
 
   #about .col-1 {

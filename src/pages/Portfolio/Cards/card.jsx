@@ -24,9 +24,9 @@ const card = props => {
           Stack
         </h6>
         <div className="btn">
-          <button>{props.s1}</button>
-          <button>{props.s2}</button>
-          <button>{props.s3}</button>
+          {props.s1 && <button>{props.s1}</button>}
+          {props.s2 && <button>{props.s2}</button>}
+          {props.s3 && <button>{props.s3}</button>}
         </div>
         <div className="link">
           <a href="https://moviesanin.netlify.app">

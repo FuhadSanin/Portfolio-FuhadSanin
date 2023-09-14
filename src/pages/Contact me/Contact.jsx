@@ -34,7 +34,10 @@ export const Contact = () => {
           </div>
         </div>
         <div className="col-2">
-          <form>
+          <form
+            action="https://formsubmit.co/el/confirm/269aa2ca52bb54a29137cbad1187de2f"
+            method="POST"
+          >
             <input type="text" placeholder="Your name" />
             <input type="email" placeholder="Email" />
             <input type="text" placeholder="Subject" />

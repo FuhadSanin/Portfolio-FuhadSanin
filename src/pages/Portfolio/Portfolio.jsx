@@ -8,10 +8,7 @@ import "aos/dist/aos.css"
 import card1 from "../../image/cards/movie.png"
 import card2 from "../../image/cards/cec.png"
 import card3 from "../../image/cards/xo.png"
-import card4 from "../../image/cards/old.jpg"
 import card5 from "../../image/cards/iedc.png"
-import card6 from "../../image/cards/counter.png"
-import card7 from "../../image/cards/contacts.png"
 
 import { movie, cec, xo, iedc } from "./p"
 
@@ -73,19 +70,6 @@ const Portfolio = () => {
           <Card title="Tic-Tac-Toe" img={card3} s2="Java" par={xo} />
         </div>
       </div>
-
-      {state && (
-        <div class="cards">
-          <div className="card-row">
-            <Card title="Counter" img={card6} />
-            <Card title="pre-Portfolio" img={card4} />
-          </div>
-          <div className="card-row" data-aos="fade-up">
-            <Card title="Contacts" img={card7} />
-            <Card title="CEC" />
-          </div>
-        </div>
-      )}
 
       <div className="show">
         <div className="btn">

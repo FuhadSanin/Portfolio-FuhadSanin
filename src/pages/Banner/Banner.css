@@ -98,7 +98,7 @@
 }
 
 #Banner .col-2 .img {
-  background-image: url(../../image/banner-color.JPEG);
+  background-image: url(../../image/banner-color.webp);
   filter: grayscale(100%);
   background-size: cover;
   width: 350px;

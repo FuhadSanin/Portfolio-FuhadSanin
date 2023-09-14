@@ -9,9 +9,11 @@ import PropagateLoader from "react-spinners/PropagateLoader"
 import { Contact } from "./pages/Contact me/Contact"
 import { Footer } from "./pages/Footer/Footer"
 import { Skills } from "./pages/Skills/Skills"
+import { Experience } from "./pages/Experience/Experience"
 import { Scroll } from "./components/Scrolls/Scroll"
 import { VerticalLineLeft } from "./components/VerticalLineLeft/VerticalLineLeft"
 import { VerticalLineRight } from "./components/VerticalLineRight/VerticalLineRight"
+import Tech from "./pages/Tech/Tech"
 export const App = () => {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -29,13 +31,13 @@ export const App = () => {
       ) : (
         <div className="margin">
           <Navbar />
-          <VerticalLineLeft/>
-          <VerticalLineRight/>
-          <Scroll/>
+          <VerticalLineLeft />
+          <VerticalLineRight />
+          <Scroll />
           <Vanta />
           <Portfolio />
-          <About />
-          <Skills />
+          <Experience />
+          <Tech />
           <Contact />
           <Footer />
         </div>

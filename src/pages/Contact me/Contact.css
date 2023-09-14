@@ -4,7 +4,9 @@
   align-items: center;
   font-family: "Poppins";
   padding-bottom: 60px;
+  padding-top: 30px;
   background-color: white;
+  background-color: #f5f5f5;
 }
 #Contact h1 {
   font-weight: bolder;
@@ -15,9 +17,13 @@
   padding-bottom: 30px;
 }
 #Contact p {
-  color: rgba(120, 120, 120, 0.489);
+  color: rgba(128, 128, 128, 0.736);
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  font-size: 14px;
   font-family: sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   margin-bottom: 50px;
 }
 #Contact .details {
