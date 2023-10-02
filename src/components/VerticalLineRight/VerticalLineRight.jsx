@@ -1,18 +1,49 @@
 import React from "react"
 import "./VerticalLineRight.css"
 import { FiGithub, FiLinkedin, FiTwitter, FiPhone } from "react-icons/fi"
-import { FaHackerrank, FaBlogger } from "react-icons/fa"
+import { SiLeetcode } from "react-icons/si"
+import { socialmedia } from "../../constants"
 export const VerticalLineRight = () => {
   return (
     <div id="lineR">
-      <div className="line-links" data-aos="fade-up">
-        <FiPhone className="icons" />
-        <FiLinkedin className="icons" />
-        <FiGithub className="icons" />
-        <FiTwitter className="icons" />
-        <FaBlogger className="icons" />
-        <FaHackerrank className="icons" />
+      <div className="line-links">
+        <a
+          href={socialmedia[0].github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FiGithub className="icons" />
+        </a>
+        <a
+          href={socialmedia[0].phone}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FiPhone className="icons" />
+        </a>
+        <a
+          href={socialmedia[0].linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FiLinkedin className="icons" />
+        </a>
+        <a
+          href={socialmedia[0].twitter}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FiTwitter className="icons" />
+        </a>
+        <a
+          href={socialmedia[0].leetcode}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SiLeetcode className="icons" />
+        </a>
       </div>
+      {/* Add other social media icons and links here */}
     </div>
   )
 }

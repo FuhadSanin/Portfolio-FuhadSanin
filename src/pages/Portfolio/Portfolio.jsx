@@ -4,13 +4,7 @@ import Card from "./Cards/card"
 import { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
-
-import card1 from "../../image/cards/movie.png"
-import card2 from "../../image/cards/cec.png"
-import card3 from "../../image/cards/xo.png"
-import card5 from "../../image/cards/iedc.png"
-
-import { movie, cec, xo, iedc } from "./p"
+import { projects } from "../../constants"
 
 const Portfolio = () => {
   const [state, setState] = useState(false)
@@ -39,36 +33,18 @@ const Portfolio = () => {
         </h1>
       </div>
 
-      <div class="cards">
-        <div className="card-row">
+      <div className="card-row">
+        {projects.map(project => (
           <Card
-            title="movie"
-            img={card1}
-            par={movie}
-            s1="HTML"
-            s2="React.js"
-            s3="Firebase"
+            key={project.id}
+            name={project.name}
+            description={project.description}
+            image={project.image}
+            link={project.link}
+            github={project.github}
+            stacks={project.stacks}
           />
-          <Card
-            title="IEDC"
-            img={card5}
-            s1="React JS"
-            s2="Tailwind"
-            s3="Vanta.js"
-            par={iedc}
-          />
-        </div>
-        <div className="card-row">
-          <Card
-            title="CEC"
-            img={card2}
-            par={cec}
-            s1="HTML"
-            s2="CSS"
-            s3="Bootstrap"
-          />
-          <Card title="Tic-Tac-Toe" img={card3} s2="Java" par={xo} />
-        </div>
+        ))}
       </div>
 
       <div className="show">

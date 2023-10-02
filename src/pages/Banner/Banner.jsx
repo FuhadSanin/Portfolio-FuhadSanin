@@ -21,7 +21,9 @@ export const Banner = () => {
           </div>
           <div className="col-intro">
             <h5 data-aos="fade-in">Hi I'm</h5>
-            <h1 data-aos="flip-up" data-aos-duration="2000">Fuhad Sanin</h1>
+            <h1 data-aos="flip-up" data-aos-duration="2000">
+              Fuhad Sanin
+            </h1>
             <h3 data-aos="flip-up">
               I'm a{" "}
               <span className="auto-type">
@@ -37,9 +39,15 @@ export const Banner = () => {
                 />
               </span>
             </h3>
-            <button className="button" data-aos="flip-down">
-              Resume
-            </button>
+            <a
+              href="https://drive.google.com/file/d/1EFFG1EEQdRwoghWbs2nyiHBBbfOmHy8L/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button" data-aos="flip-down">
+                Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>

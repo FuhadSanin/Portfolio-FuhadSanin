@@ -14,6 +14,12 @@ import redux from "./tech/redux.png"
 import tailwind from "./tech/tailwind.png"
 import typescript from "./tech/typescript.png"
 import threejs from "./tech/threejs.svg"
+
+import quikart from "./projects/quikart.png"
+import jobify from "./projects/jobify.png"
+import iedcpost from "./projects/iedc.png"
+import movie from "./projects/movie.png"
+
 export {
   iedc,
   cec,
@@ -30,4 +36,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  quikart,
+  jobify,
+  movie,
+  iedcpost,
 }

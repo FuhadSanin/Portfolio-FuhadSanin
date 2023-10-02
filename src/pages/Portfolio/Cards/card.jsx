@@ -1,17 +1,17 @@
 import React from "react"
 import "./card.css"
-import { FaGithub, FaTelegram } from "react-icons/fa"
+import { FiLink, FiGithub } from "react-icons/fi"
 
-const card = props => {
+const card = ({ name, image, description, link, github, stacks }) => {
   return (
     <div id="card" data-aos="flip-up" data-aos-duration="1000">
       <div className="img">
-        <img src={props.img} alt="" />
+        <img src={image} alt="" />
       </div>
       <div className="details">
-        <h3>{props.title}</h3>
+        <h3>{name}</h3>
         <div className="par">
-          <p>{props.par}</p>
+          <p>{description}</p>
         </div>
         <h6
           style={{
@@ -24,17 +24,19 @@ const card = props => {
           Stack
         </h6>
         <div className="btn">
-          {props.s1 && <button>{props.s1}</button>}
-          {props.s2 && <button>{props.s2}</button>}
-          {props.s3 && <button>{props.s3}</button>}
+          {stacks.map((stack, index) => (
+            <button key={index}>{stack}</button>
+          ))}
         </div>
         <div className="link">
-          <a href="https://moviesanin.netlify.app">
-            <FaGithub className="icons github" />
+          <a href={github} target="_blank" rel="noopener noreferrer">
+            <FiGithub title="Source code" className="icons" />
           </a>
-          <a href="https://fuhadsanin.github.io/collegesitecec/">
-            <FaTelegram className="icons telgram" />
-          </a>
+          {link && (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <FiLink title="Project link" className="icons" />
+            </a>
+          )}
         </div>
       </div>
     </div>

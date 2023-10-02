@@ -1,6 +1,7 @@
 import React from "react"
 import "./Contact.css"
 import { FaGithub, FaLinkedin, FaTwitter, FaPhone } from "react-icons/fa"
+import { socialmedia } from "../../constants"
 
 export const Contact = () => {
   return (
@@ -27,10 +28,34 @@ export const Contact = () => {
             hello, please feel free to reach out to us using the contact .{" "}
           </p>
           <div className="social-media">
-            <FaGithub className="icons" />
-            <FaLinkedin className="icons" />
-            <FaTwitter className="icons" />
-            <FaPhone className="icons" />
+            <a
+              href={socialmedia[0].github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="icons" />
+            </a>
+            <a
+              href={socialmedia[0].linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="icons" />
+            </a>
+            <a
+              href={socialmedia[0].twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="icons" />
+            </a>
+            <a
+              href={socialmedia[0].phone}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaPhone className="icons" />
+            </a>
           </div>
         </div>
         <div className="col-2">

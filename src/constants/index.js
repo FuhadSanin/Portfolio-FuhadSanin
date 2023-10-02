@@ -14,6 +14,10 @@ import {
   tailwind,
   typescript,
   threejs,
+  quikart,
+  jobify,
+  movie,
+  iedcpost,
 } from "../image"
 
 const technologies = [
@@ -98,4 +102,52 @@ const experiences = [
     ],
   },
 ]
-export { experiences, technologies }
+const socialmedia = [
+  {
+    github: "https://github.com/FuhadSanin/",
+    linkedin: "https://www.linkedin.com/in/fuhad-sanin-b469a3217/",
+    twitter: "https://x.com/s_an_in?s=21&t=jY9EqensyLU26TAYgxMFPg",
+    instagram: "https://instagram.com/s.an.in?igshid=YTQwZjQ0NmI0OA==",
+    gmail: "mailto:fuhadsanin500@gmail.com",
+    phone: "tel:+917012190904",
+    leetcode: "https://leetcode.com/fuhadsanin500/",
+  },
+]
+
+const projects = [
+  {
+    name: "Quikart",
+    description:
+      "Quikart is a full stack e-commerce website built with MERN stack. It has features like authentication, cart, wishlist, checkout, payment, etc.",
+    image: quikart,
+    link: "https://ecommerce-sanity-fuhadsanin.vercel.app",
+    github: "https://github.com/FuhadSanin/QuicKart-Sanity.git",
+    stacks: ["Next JS", "Sanity"],
+  },
+  {
+    name: "Jobify",
+    description:
+      "Jobify is a full stack job board website built with MERN stack. It has features like authentication, job posting, job searching, etc.",
+    image: jobify,
+    github: "https://github.com/FuhadSanin/Jobify-React-Native.git",
+    stacks: ["React-Native", "JSearch API"],
+  },
+  {
+    name: "IEDC CEC Official Website",
+    description:
+      "Official website of IEDC CEC. It is a static website built with React and Tailwind CSS.",
+    image: iedcpost,
+    link: "https://github.com/FuhadSanin/iedccecBackend",
+    github: "https://github.com/FuhadSanin/iedccecBackend.git",
+    stacks: ["Next JS", "Tailwind CSS", "FireBase"],
+  },
+  {
+    name: "Movie App",
+    description:
+      "Movie App is a web application built with React. It uses the MovieDB API to fetch movie details.",
+    image: movie,
+    github: "https://github.com/FuhadSanin/netflix.git",
+    stacks: ["React JS", "MovieDB API"],
+  },
+]
+export { experiences, technologies, socialmedia, projects }

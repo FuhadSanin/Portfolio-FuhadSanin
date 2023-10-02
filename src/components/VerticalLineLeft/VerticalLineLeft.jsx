@@ -3,7 +3,9 @@ import "./VerticalLineLeft.css"
 export const VerticalLineLeft = () => {
   return (
     <div id="lineL">
-      <a href="" data-aos="fade-up">fuhadsanin@gmail.com</a>
+      <a href="mailto:fuhadsanin@gmail.com" data-aos="fade-up">
+        fuhadsanin@gmail.com
+      </a>
     </div>
   )
 }
