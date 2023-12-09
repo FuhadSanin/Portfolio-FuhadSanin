@@ -166,5 +166,19 @@ const reviews = [
     position: "Web Developer at AvisCruise",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
   },
+  {
+    img: "https://avatars.githubusercontent.com/u/121556665?v=4",
+    linkedin: "https://www.linkedin.com/in/amith-sunil-a59167229/",
+    name: "Amith Sunil",
+    position: "Web Developer at AvisCruise",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
+  },
+  {
+    img: "https://avatars.githubusercontent.com/u/121556665?v=4",
+    linkedin: "https://www.linkedin.com/in/amith-sunil-a59167229/",
+    name: "Amith Sunil",
+    position: "Web Developer at AvisCruise",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
+  },
 ]
 export { experiences, technologies, socialmedia, projects, reviews }
