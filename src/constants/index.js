@@ -138,7 +138,7 @@ const projects = [
       "Official website of IEDC CEC. It is a static website built with React and Tailwind CSS.",
     image: iedcpost,
     link: "https://github.com/FuhadSanin/iedccecBackend",
-    github: "https://github.com/FuhadSanin/iedccecBackend.git",
+    github: "https://github.com/FuhadSanin/iedccecBackend",
     stacks: ["Next JS", "Tailwind CSS", "FireBase"],
   },
   {
@@ -150,4 +150,21 @@ const projects = [
     stacks: ["React JS", "MovieDB API"],
   },
 ]
-export { experiences, technologies, socialmedia, projects }
+
+const reviews = [
+  {
+    img: "https://avatars.githubusercontent.com/u/115739037?v=4",
+    linkedin: "https://www.linkedin.com/in/nikhila-c-408784254/",
+    name: "Nikhila C",
+    position: "Tech Incharge Software at PRODDEC",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
+  },
+  {
+    img: "https://avatars.githubusercontent.com/u/121556665?v=4",
+    linkedin: "https://www.linkedin.com/in/amith-sunil-a59167229/",
+    name: "Amith Sunil",
+    position: "Web Developer at AvisCruise",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
+  },
+]
+export { experiences, technologies, socialmedia, projects, reviews }

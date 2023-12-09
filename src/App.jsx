@@ -14,6 +14,7 @@ import { Scroll } from "./components/Scrolls/Scroll"
 import { VerticalLineLeft } from "./components/VerticalLineLeft/VerticalLineLeft"
 import { VerticalLineRight } from "./components/VerticalLineRight/VerticalLineRight"
 import Tech from "./pages/Tech/Tech"
+import Reviews from "./pages/Reviews/Reviews"
 export const App = () => {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -38,6 +39,7 @@ export const App = () => {
           <Portfolio />
           <Experience />
           <Tech />
+          <Reviews />
           <Contact />
           <Footer />
         </div>

@@ -29,8 +29,14 @@ export const Banner = () => {
               <span className="auto-type">
                 {" "}
                 <Typewriter
-                  words={["React Developer", "Web Designer", "Cinematographer"]}
-                  loop={5}
+                  words={[
+                    "Full Stack Web Developer",
+                    "Next JS Developer",
+                    "Node JS Developer",
+                    "Express Developer",
+                    "Cinematographer",
+                  ]}
+                  loop={Infinity}
                   cursor
                   cursorStyle="|"
                   typeSpeed={50}

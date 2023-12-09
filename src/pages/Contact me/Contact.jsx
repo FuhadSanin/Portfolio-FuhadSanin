@@ -1,9 +1,69 @@
-import React from "react"
+import React, { useRef, useState } from "react"
 import "./Contact.css"
+import { toast, Toaster } from "react-hot-toast"
+import emailjs from "@emailjs/browser"
 import { FaGithub, FaLinkedin, FaTwitter, FaPhone } from "react-icons/fa"
 import { socialmedia } from "../../constants"
 
 export const Contact = () => {
+  const formRef = useRef()
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    msg: "",
+  })
+
+  const handleFormSubmit = event => {
+    event.preventDefault()
+    emailjs
+      .send(
+        "service_gh178wc",
+        "template_s09tamk",
+        {
+          from_name: formData.name,
+          to_name: "Sanin",
+          from_email: formData.email,
+          to_email: "fuhadsanin@gmail.com",
+          msg: formData.msg,
+          email: formData.email,
+        },
+        "3VJjJlQ-x0WtTXpqs"
+      )
+      .then(result => {
+        if (formData.name && formData.msg && formData.email) {
+          toast.success("Look at my styles.", {
+            style: {
+              border: "1px solid #713200",
+              padding: "16px",
+              color: "#713200",
+            },
+            iconTheme: {
+              primary: "#713200",
+              secondary: "#FFFAEE",
+            },
+          })
+        } else {
+          toast.error("Please fill out all required fields.")
+        }
+        setFormData({
+          name: "",
+          email: "",
+          msg: "",
+        })
+      })
+  }
+  // service_b7aditv
+  // hQBCj-2MI90tn5j5B
+  // template_5g1rffi
+
+  const handleInputChange = event => {
+    const { id, value } = event.target
+    setFormData({
+      ...formData,
+      [id]: value,
+    })
+  }
   return (
     <div id="Contact">
       <h1 data-aos="flip-up">
@@ -59,14 +119,31 @@ export const Contact = () => {
           </div>
         </div>
         <div className="col-2">
-          <form
-            action="https://formsubmit.co/el/confirm/269aa2ca52bb54a29137cbad1187de2f"
-            method="POST"
-          >
-            <input type="text" placeholder="Your name" />
-            <input type="email" placeholder="Email" />
-            <input type="text" placeholder="Subject" />
-            <textarea rows="4" placeholder="Message" />
+          <form ref={formRef} onSubmit={handleFormSubmit}>
+            <input
+              type="text"
+              placeholder="Your name"
+              id="name"
+              required
+              value={formData.name}
+              onChange={handleInputChange}
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              required
+              value={formData.email}
+              onChange={handleInputChange}
+            />
+            <textarea
+              rows="4"
+              placeholder="Message"
+              id="msg"
+              required
+              value={formData.msg}
+              onChange={handleInputChange}
+            />
             <button className="btn">Submit</button>
           </form>
         </div>
