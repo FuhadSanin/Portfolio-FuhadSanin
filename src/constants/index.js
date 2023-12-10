@@ -156,7 +156,7 @@ const reviews = [
     img: "https://avatars.githubusercontent.com/u/115739037?v=4",
     linkedin: "https://www.linkedin.com/in/nikhila-c-408784254/",
     name: "Nikhila C",
-    position: "Tech Incharge Software at PRODDEC",
+    position: "Tech Incharge at PRODDEC",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
   },
   {

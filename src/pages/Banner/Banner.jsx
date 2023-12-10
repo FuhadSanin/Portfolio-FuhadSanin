@@ -25,7 +25,6 @@ export const Banner = () => {
               Fuhad Sanin
             </h1>
             <h3 data-aos="flip-up">
-              I'm a{" "}
               <span className="auto-type">
                 {" "}
                 <Typewriter
