@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser"
 import { FaGithub, FaLinkedin, FaTwitter, FaPhone } from "react-icons/fa"
 import { socialmedia } from "../../constants"
 
-export const Contact = () => {
+const Contact = () => {
   const formRef = useRef()
 
   const [formData, setFormData] = useState({
@@ -151,3 +151,4 @@ export const Contact = () => {
     </div>
   )
 }
+export default Contact

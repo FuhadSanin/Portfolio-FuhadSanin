@@ -4,13 +4,16 @@ import "./Skills.css"
 import { RiCodeSSlashLine } from "react-icons/ri"
 import { GiBrain } from "react-icons/gi"
 import { MdLaptopMac } from "react-icons/md"
+import { FaDatabase } from "react-icons/fa"
+import { ImAndroid } from "react-icons/im"
+import { CiCloudOn } from "react-icons/ci"
 
-export const Skills = () => {
+const Skills = () => {
   return (
     <div id="Skills">
       <div class="title" data-aos="flip-up" data-aos-duration="1000">
         <h1>
-          Skill
+          Proficie
           <span
             style={{
               color: "#2196f3",
@@ -18,20 +21,35 @@ export const Skills = () => {
                 "0px 0px 10px rgba(33, 150, 243, 0.25), 0px 0px 70px rgba(33, 150, 243, 0.3), 0px 0px 40px rgba(33, 150, 243, 0.25)",
             }}
           >
-            s.
+            nt.
           </span>
         </h1>
       </div>
       <div className="details">
         <Card
-          data-aos="fade-up"
-          data-aos-duration="500"
-          img={RiCodeSSlashLine}
-          title="Full Stack Web Developer"
+          img={FaDatabase}
+          title="Backend Developer"
+          stacks={["Node.js", "Express.js", "MongoDB"]}
         />
-        <Card img={GiBrain} title="Problem Solving" />
-        <Card img={MdLaptopMac} title="UI/UX" />
+        <Card
+          img={RiCodeSSlashLine}
+          title="Frontend Developer"
+          stacks={["REACT.JS", "NEXT.JS"]}
+        />
+        <Card
+          img={CiCloudOn}
+          title="Cloud Backend"
+          stacks={["Firebase", "Sanity"]}
+        />
+        <Card
+          img={ImAndroid}
+          title="Mobile App Developer"
+          stacks={["React Native"]}
+        />
+        <Card img={GiBrain} title="Problem Solving" stacks={["Python", "C"]} />
+        <Card img={MdLaptopMac} title="UI/UX" stacks={["FIGMA"]} />
       </div>
     </div>
   )
 }
+export default Skills

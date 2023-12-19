@@ -2,7 +2,7 @@ import React from "react"
 import { FiArrowUp } from "react-icons/fi"
 import "./Scroll.css"
 
-export const Scroll = () => {
+const Scroll = () => {
   return (
     <div id="Scroll">
       <a href="#Banner">
@@ -12,3 +12,4 @@ export const Scroll = () => {
     </div>
   )
 }
+export default Scroll

@@ -3,7 +3,7 @@ import "./VerticalLineRight.css"
 import { FiGithub, FiLinkedin, FiTwitter, FiPhone } from "react-icons/fi"
 import { SiLeetcode } from "react-icons/si"
 import { socialmedia } from "../../constants"
-export const VerticalLineRight = () => {
+const VerticalLineRight = () => {
   return (
     <div id="lineR">
       <div className="line-links">
@@ -47,3 +47,4 @@ export const VerticalLineRight = () => {
     </div>
   )
 }
+export default VerticalLineRight

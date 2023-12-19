@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react"
 import "./Navbar.css"
 import { FaTimes, FaBars } from "react-icons/fa"
 
-export const Navbar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false)
   const navbg = () => {
     if (window.scrollY >= 90) {
@@ -39,3 +39,5 @@ export const Navbar = () => {
     </header>
   )
 }
+
+export default Navbar

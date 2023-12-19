@@ -46,14 +46,6 @@ function About() {
           <div className="tab-title">
             <h5
               className="tab-link active-link"
-              onClick={() => handle("skill")}
-              data-aos="fade-up"
-              data-aos-duration="500"
-            >
-              Skills
-            </h5>
-            <h5
-              className="tab-link"
               onClick={() => handle("education")}
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -69,13 +61,6 @@ function About() {
               Certificate
             </h5>
           </div>
-          {show === "skill" ? (
-            <div class="tab_content active-tab" data-aos="fade-up">
-              hey
-            </div>
-          ) : (
-            ""
-          )}
 
           {show === "education" ? (
             <div class="tab_content">

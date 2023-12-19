@@ -1,20 +1,17 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import "./App.css"
-import { Navbar } from "./components/Navbar/Navbar"
-import { Vanta } from "./pages/Banner/Vanta"
-import Portfolio from "./pages/Portfolio/Portfolio"
-import About from "./pages/About/About"
-import { useState, useEffect } from "react"
+
+import { Vanta, Portfolio, Experience, Contact, Skills, About } from "./pages"
+import {
+  Navbar,
+  Scroll,
+  VerticalLineRight,
+  VerticalLineLeft,
+  Footer,
+} from "./components"
+
 import PropagateLoader from "react-spinners/PropagateLoader"
-import { Contact } from "./pages/Contact me/Contact"
-import { Footer } from "./pages/Footer/Footer"
-import { Skills } from "./pages/Skills/Skills"
-import { Experience } from "./pages/Experience/Experience"
-import { Scroll } from "./components/Scrolls/Scroll"
-import { VerticalLineLeft } from "./components/VerticalLineLeft/VerticalLineLeft"
-import { VerticalLineRight } from "./components/VerticalLineRight/VerticalLineRight"
-import Tech from "./pages/Tech/Tech"
-import Reviews from "./pages/Reviews/Reviews"
+
 export const App = () => {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -38,8 +35,8 @@ export const App = () => {
           <Vanta />
           <Portfolio />
           <Experience />
-          <Tech />
-          <Reviews />
+          <About />
+          <Skills />
           <Contact />
           <Footer />
         </div>

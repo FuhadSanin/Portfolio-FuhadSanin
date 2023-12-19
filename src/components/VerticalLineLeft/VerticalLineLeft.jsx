@@ -1,6 +1,6 @@
 import React from "react"
 import "./VerticalLineLeft.css"
-export const VerticalLineLeft = () => {
+const VerticalLineLeft = () => {
   return (
     <div id="lineL">
       <a href="mailto:fuhadsanin@gmail.com" data-aos="fade-up">
@@ -9,3 +9,4 @@ export const VerticalLineLeft = () => {
     </div>
   )
 }
+export default VerticalLineLeft

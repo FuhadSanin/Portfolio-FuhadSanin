@@ -59,7 +59,7 @@ const ExperienceCard = ({ experience }) => {
   )
 }
 
-export const Experience = () => {
+const Experience = () => {
   return (
     <div id="Experience">
       <div class="title" data-aos="flip-up" data-aos-duration="2000">
@@ -89,3 +89,4 @@ export const Experience = () => {
     </div>
   )
 }
+export default Experience
