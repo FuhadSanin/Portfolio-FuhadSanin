@@ -7,6 +7,7 @@ import { MdLaptopMac } from "react-icons/md"
 import { FaDatabase } from "react-icons/fa"
 import { ImAndroid } from "react-icons/im"
 import { CiCloudOn } from "react-icons/ci"
+import Reviews from "../Reviews/Reviews"
 
 const Skills = () => {
   return (
@@ -49,6 +50,7 @@ const Skills = () => {
         <Card img={GiBrain} title="Problem Solving" stacks={["Python", "C"]} />
         <Card img={MdLaptopMac} title="UI/UX" stacks={["FIGMA"]} />
       </div>
+      <Reviews />
     </div>
   )
 }

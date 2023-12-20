@@ -1,32 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@500&family=Poppins:ital,wght@0,500;1,300&family=Quicksand:wght@300&display=swap");
 
 #reviews {
+  width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px;
   height: fit-content;
   font-family: "Poppins";
 }
-#reviews h1 {
-  font-weight: bolder;
-  font-size: 50px;
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 700;
-}
 #reviews .swiper {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#reviews .container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 #reviews .card {
   width: 500px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  padding: 50px;
   border-radius: 20px;
-  margin: 100px;
-  justify-self: center;
-  align-self: center;
+  padding: 20px;
 }
 #reviews .card .details {
   justify-content: center;
@@ -52,9 +51,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Apply shadow effect */
   overflow: hidden; /* Hides overflow content (necessary for a circular container) */
 }
-#reviews .swiper-mob {
-  display: none;
-}
 
 /* CSS styles for the image */
 #reviews .image {
@@ -64,18 +60,15 @@
   border-radius: 50%; /* Ensures a circular shape */
 }
 @media only screen and (max-width: 1100px) {
-  #reviews .swiper-lg {
-    display: none;
-  }
-  #reviews .swiper-mob {
-    display: block;
+  #reviews .container {
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    padding-bottom: 30px;
   }
   #reviews .card {
-    width: 85%;
+    width: 300px;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    padding: 10px;
-    border-radius: 20px;
-    margin: 0px 10px 40px 20px;
   }
 }
