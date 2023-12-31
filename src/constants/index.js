@@ -153,24 +153,17 @@ const projects = [
 
 const reviews = [
   {
+    img: "https://media.licdn.com/dms/image/D5603AQE19nqOhQ06bQ/profile-displayphoto-shrink_800_800/0/1691842195303?e=1709769600&v=beta&t=sz-xjjwi_e9oZdvJ2LV2yJWl771pFgVdV6z8NgK8hpU",
+    linkedin: "https://www.linkedin.com/in/yasirhussainm/",
+    name: "Yasir Hussain M",
+    position: "Full stack developer at Whiterabbit",
+    text: "Sanin's enthusiasm and curiosity keeps the energy fresh in the team till the project get released. I am sure any team would appreciate his drive for web technologies.",
+  },
+  {
     img: "https://avatars.githubusercontent.com/u/115739037?v=4",
     linkedin: "https://www.linkedin.com/in/nikhila-c-408784254/",
     name: "Nikhila C",
     position: "Tech Incharge at PRODDEC",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
-  },
-  {
-    img: "https://avatars.githubusercontent.com/u/121556665?v=4",
-    linkedin: "https://www.linkedin.com/in/amith-sunil-a59167229/",
-    name: "Amith Sunil",
-    position: "Web Developer at AvisCruise",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
-  },
-  {
-    img: "https://avatars.githubusercontent.com/u/121556665?v=4",
-    linkedin: "https://www.linkedin.com/in/amith-sunil-a59167229/",
-    name: "Amith Sunil",
-    position: "Web Developer at AvisCruise",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam, voluptatum! Lorem ipsum dolor sit amet consecteturadipisicing elit. Quisquam, voluptatum! Lorem ipsum dolor sitamet consectetur adipisicing elit. Quisquam, voluptatum!",
   },
   {

@@ -9,6 +9,7 @@ function About() {
   }
   return (
     <div id="about">
+      <div className="cirlce"></div>
       <div className="col-1">
         <div className="img" data-aos="fade-right"></div>
       </div>
