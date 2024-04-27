@@ -5,7 +5,7 @@ header {
   position: fixed;
   height: 80px;
   width: 100%;
-  z-index: 10000;
+  z-index: 1;
   font-family: "Poppins";
   display: flex;
   align-items: center;
@@ -18,9 +18,10 @@ header {
 .header-bg {
   height: 60px;
   width: 100%;
-  background-color: #021731;
-  box-shadow: rgba(19, 19, 19, 0.554) 0px 8px 24px;
+  background-color: #021731d0;
+  box-shadow: rgba(19, 19, 19, 0.247) 0px 8px 24px;
 }
+
 header p {
   padding-left: 120px;
   font-family: "Poppins";

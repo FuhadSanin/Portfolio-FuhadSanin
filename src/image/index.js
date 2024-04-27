@@ -19,6 +19,7 @@ import quikart from "./projects/quikart.png"
 import jobify from "./projects/jobify.png"
 import iedcpost from "./projects/iedc.png"
 import movie from "./projects/movie.png"
+import venuenow from "./projects/venuenow.png"
 
 export {
   iedc,
@@ -40,4 +41,5 @@ export {
   jobify,
   movie,
   iedcpost,
+  venuenow,
 }

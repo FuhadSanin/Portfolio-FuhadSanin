@@ -18,6 +18,7 @@ import {
   jobify,
   movie,
   iedcpost,
+  venuenow,
 } from "../image"
 
 const technologies = [
@@ -115,6 +116,15 @@ const socialmedia = [
 ]
 
 const projects = [
+  {
+    name: "VenueNow",
+    description:
+      "The College Event Hall Booking System is an online platform that simplifies the process of booking event halls on college campuses. ",
+    image: venuenow,
+    link: "https://venuenow.vercel.app",
+    github: "https://github.com/FuhadSanin/VenueNow-MiniProject.git",
+    stacks: ["React JS", "Node JS", "MongoDB", "Express JS"],
+  },
   {
     name: "Quikart",
     description:

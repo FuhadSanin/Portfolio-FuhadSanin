@@ -32,17 +32,7 @@ const Contact = () => {
       )
       .then(result => {
         if (formData.name && formData.msg && formData.email) {
-          toast.success("Look at my styles.", {
-            style: {
-              border: "1px solid #713200",
-              padding: "16px",
-              color: "#713200",
-            },
-            iconTheme: {
-              primary: "#713200",
-              secondary: "#FFFAEE",
-            },
-          })
+          toast.success("Successfully sent!")
         } else {
           toast.error("Please fill out all required fields.")
         }
