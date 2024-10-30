@@ -19,6 +19,7 @@ import {
   movie,
   iedcpost,
   venuenow,
+  ataraxia,
 } from "../image"
 
 const technologies = [
@@ -116,6 +117,15 @@ const socialmedia = [
 ]
 
 const projects = [
+  {
+    name: "Ataraxia",
+    description:
+      "Ataraxia is a full stack social media website built with MERN stack. It has features like authentication, post sharing, like, comment, etc.",
+    image: ataraxia,
+    link: "https://ataraxia.vercel.app",
+    github: "",
+    stacks: ["React JS", "Django", "Postgress SQL"],
+  },
   {
     name: "VenueNow",
     description:

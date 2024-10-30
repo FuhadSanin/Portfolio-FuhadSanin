@@ -20,6 +20,7 @@ import jobify from "./projects/jobify.png"
 import iedcpost from "./projects/iedc.png"
 import movie from "./projects/movie.png"
 import venuenow from "./projects/venuenow.png"
+import ataraxia from "./projects/ataraxia.png"
 
 export {
   iedc,
@@ -42,4 +43,5 @@ export {
   movie,
   iedcpost,
   venuenow,
+  ataraxia,
 }
